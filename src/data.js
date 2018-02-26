@@ -1,0 +1,22 @@
+export default [
+    {
+        id:0,
+        name:'Avinash',
+        age:24
+    },
+    {
+        id:1,
+        name:'Anudeep',
+        age:28
+    },
+    {
+        id:2,
+        name:'Akash',
+        age:30
+    },
+    {
+        id:3,
+        name:'Avi',
+        age:34
+    },
+]
