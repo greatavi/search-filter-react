@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import data from '../data.js';
+import '../SearchBar.css';
+
 class SearchBar extends Component {
     searchFor(){
         const inputValue = this.refs.inputBox.value;
-        console.log(inputValue);
+        this.props.filterList(inputValue);
     }
     render(){
         return (
